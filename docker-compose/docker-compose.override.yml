@@ -81,7 +81,7 @@ services:
     ports:
       - 127.0.0.1:8717:8080
     volumes:
-      - c:/git/sitkatech/zybach/Zybach.GeoServer/data_dir:/opt/geoserver/data_dir
+      - c:/git/esassoc/zybach/Zybach.GeoServer/data_dir:/opt/geoserver/data_dir
       - c:/sitka/zybach/GeoServer/geoserver-environment.properties:/opt/geoserver/geoserver-environment.properties
 
   vegarenderservice:
